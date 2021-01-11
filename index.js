@@ -77,7 +77,7 @@ const server = http.createServer((req, res) => {
 });
 
 //listen from post
-const port = process.env.PORT || 2000;
+const port = 2000;
 server.listen(port, "127.0.0.1", () => {
   console.log("Listen from port:", port);
 });
